@@ -1,0 +1,20 @@
+DELETE /stories_index
+PUT /stories_index
+PUT /stories_index/_mapping/doc
+{
+  "properties": {
+    "url": {
+      "type": "string",
+      "index": "not_analyzed"
+    },
+    "score": {
+      "type": "integer",
+      "index": "not_analyzed"
+    },
+    "body": {
+      "type": "string",
+      "index": "analyzed",
+      "analyzer": "english"
+    }
+  }
+}
