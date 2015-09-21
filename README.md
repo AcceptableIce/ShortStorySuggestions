@@ -6,3 +6,5 @@ Expects ElasticSearch to be running on port 9200, and the mapping to have been p
 Saves a record of the bulk import it does in case something goes wrong.
 
 Built for CS410 Text Information Systems at UIUC.
+
+**This project does not work correctly, and likely won't ever.**
